@@ -6,5 +6,5 @@ for i in range(10):
 
 # exibe os números na ordem inversa
 print("Números na ordem inversa:")
-for i in range(9, -1, -1):
-    print(numeros[i])
+
+print(numeros)
