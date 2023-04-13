@@ -5,7 +5,7 @@ for i in range (10):
     A.append(numero)
 
 soma = sum(A)
-multiplicação = 2
+multiplicação = 1
 for numero in A:
     multiplicação *= numero
 print ("soma dos numeros:")
