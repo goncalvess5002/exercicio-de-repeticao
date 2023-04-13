@@ -1,10 +1,10 @@
-# lê os 10 números reais do usuário e armazena em um vetor
-numeros = []
-for i in range(5):
-    numero = float(input("Digite um número real: "))
-    numeros.append(numero)
 
-# exibe os números na ordem inversa
-print("Números na ordem inversa:")
-numeros.reverse()
-print(numeros)
+numeros = [66, 78, 88, 77, 20, 22, 12, 54, 30, 55]
+numerosVazio = []
+
+for i in range(10):
+    numerosVazio.append(numeros.pop())
+    print(numerosVazio)
+
+
+
