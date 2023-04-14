@@ -15,6 +15,14 @@ while True:
     else:
         print("Você deve ter pelo menos 18 anos.")
         
+
+while True:
+    salario = int(input("Digite seu salario: "))
+    if salario > 0 and idade <= 1000000:
+        break
+    else:
+        print("Seu salário deve ser maior que R$0.")
+        
 while True:
     genero = str(input("Digite seu genero sexual (m,f): "))
     if genero in sexo:
